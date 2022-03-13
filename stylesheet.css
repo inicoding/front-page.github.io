@@ -29,6 +29,16 @@ header {
 .logo {
   border-radius: 50%;
   margin-top: 5px;
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:770px; top:0px;}
+  75%  {left:0px; right:200px;}
 }
 
 .header-right {
